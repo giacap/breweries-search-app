@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: #333;
+}
+
+.app{
+  min-height: 100vh;
+  background-color: rgb(94, 199, 235);
+  padding-bottom: 20px;
+}
+
+
+.header{
+  padding: 20px;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+.heading{
+  text-align: center;
+  font-weight: 600;
+}
+
+.header p{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  max-width: 320px;
+  margin: auto;
+  border-bottom: 1px solid #333;
+}
+
+
+
+.navlink{
+  text-decoration: none;
+  width: 160px;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  border-right: 1px solid #333;
+  border-top: 1px solid #333;
+}
+
+.navlink-left{
+  border-left: 1px solid #333;
+}
+
+.navlink:hover{
+  background-color: rgb(46, 131, 241);
+  color: #fff;
+}
+
+
+
+
+/* HOME */
+.form{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+
+.form input{
+  font-size: 1rem;
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.form button{
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(46, 131, 241);
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-additional-text{
+  text-align: center;
+}
+
+
+
+.breweries-list{
+  background-color: rgb(46, 131, 241);
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 40px;
+  border-radius: 30px 30px 0 0;
+}
+
+.brewery-item{
+  padding: 25px;
+  text-align: center;
+  width: 320px;
+  max-width: 320px;
+  border-bottom: 2px solid #333;
+}
+
+.brewery-name{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.brewery-additional{
+  font-size: 1rem;
+}
+
+.brewery-link{
+  margin-top: 10px;
+  font-size: 0.8rem !important;
+}
+
+
+.loading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-container p{
+  font-size: 1rem;
+  padding: 15px;
+}
+
+
+
+.details-container{
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-container h2{
+  text-align: center;
+}
+
+.details-container div{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.details-container h4{
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.details-container p{
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+.breweries-history{
+  flex-direction: column-reverse;
+}
+
+.history-heading{
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 35px;
+}
+
+.history-subheading{
+  text-align: center;
+  margin-bottom: 30px;
+}
